@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['singlelinkedlist_2ec',['singlelinkedlist.c',['../singlelinkedlist_8c.html',1,'']]],
-  ['singlelinkedlist_2eh',['singlelinkedlist.h',['../singlelinkedlist_8h.html',1,'']]]
+  ['queue_2ec',['queue.c',['../queue_8c.html',1,'']]],
+  ['queue_2eh',['queue.h',['../queue_8h.html',1,'']]]
 ];

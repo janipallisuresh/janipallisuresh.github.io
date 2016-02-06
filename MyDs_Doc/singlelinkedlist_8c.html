@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MyDs: singlelinkedlist.c File Reference</title>
+<title>My Project: src/singlelinkedlist.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,10 +24,8 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="sj.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MyDs
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">My Project
    </div>
-   <div id="projectbrief">Implementing Data Structures in C</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +80,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
@@ -94,19 +96,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Contains implementation of the functions declared in <a class="el" href="singlelinkedlist_8h.html" title="Contains declarations of functions supported in operating single linked list. ">singlelinkedlist.h</a>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="singlelinkedlist_8h_source.html">singlelinkedlist.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for singlelinkedlist.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="singlelinkedlist_8c__incl.png" border="0" usemap="#singlelinkedlist_8c" alt=""/></div>
-<map name="singlelinkedlist_8c" id="singlelinkedlist_8c">
-</map>
-</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa3d07db3db612d511ee7853f9dff235a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="singlelinkedlist_8c.html#aa3d07db3db612d511ee7853f9dff235a">add_node</a> (int add_data, <a class="el" href="structs__node.html">s_node</a> **head)</td></tr>
 <tr class="memdesc:aa3d07db3db612d511ee7853f9dff235a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new node and add it to the list.  <a href="#aa3d07db3db612d511ee7853f9dff235a">More...</a><br /></td></tr>
 <tr class="separator:aa3d07db3db612d511ee7853f9dff235a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3c4739ed842cb03dc3741cbfc3cf44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="singlelinkedlist_8c.html#aff3c4739ed842cb03dc3741cbfc3cf44">add_node_front</a> (int add_data, <a class="el" href="structs__node.html">s_node</a> **head)</td></tr>
+<tr class="memdesc:aff3c4739ed842cb03dc3741cbfc3cf44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new node and add it at the begining of the list.  <a href="#aff3c4739ed842cb03dc3741cbfc3cf44">More...</a><br /></td></tr>
+<tr class="separator:aff3c4739ed842cb03dc3741cbfc3cf44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af922275108e444be8fd8fe28a88cde0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="singlelinkedlist_8c.html#af922275108e444be8fd8fe28a88cde0e">add_node_end</a> (int add_data, <a class="el" href="structs__node.html">s_node</a> **head)</td></tr>
+<tr class="memdesc:af922275108e444be8fd8fe28a88cde0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new node and add it at the end of the list.  <a href="#af922275108e444be8fd8fe28a88cde0e">More...</a><br /></td></tr>
+<tr class="separator:af922275108e444be8fd8fe28a88cde0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606e077dce0fd93ff066b89cbde6e790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="singlelinkedlist_8c.html#a606e077dce0fd93ff066b89cbde6e790">delete_list</a> (<a class="el" href="structs__node.html">s_node</a> **head)</td></tr>
+<tr class="memdesc:a606e077dce0fd93ff066b89cbde6e790"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete entire list.  <a href="#a606e077dce0fd93ff066b89cbde6e790">More...</a><br /></td></tr>
+<tr class="separator:a606e077dce0fd93ff066b89cbde6e790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1511f3500e65d0b4075925029aa852ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="singlelinkedlist_8c.html#a1511f3500e65d0b4075925029aa852ef">display_list</a> (<a class="el" href="structs__node.html">s_node</a> *head)</td></tr>
 <tr class="memdesc:a1511f3500e65d0b4075925029aa852ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the single linked list.  <a href="#a1511f3500e65d0b4075925029aa852ef">More...</a><br /></td></tr>
 <tr class="separator:a1511f3500e65d0b4075925029aa852ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +165,83 @@ Functions</h2></td></tr>
 
 <p>Create a new node and add it to the list. </p>
 <p>add_node </p>
+
+</div>
+</div>
+<a class="anchor" id="af922275108e444be8fd8fe28a88cde0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void add_node_end </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>add_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structs__node.html">s_node</a> **&#160;</td>
+          <td class="paramname"><em>head</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new node and add it at the end of the list. </p>
+<p>add_node </p>
+
+</div>
+</div>
+<a class="anchor" id="aff3c4739ed842cb03dc3741cbfc3cf44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void add_node_front </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>add_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structs__node.html">s_node</a> **&#160;</td>
+          <td class="paramname"><em>head</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a new node and add it at the begining of the list. </p>
+<p>add_node_front </p>
+
+</div>
+</div>
+<a class="anchor" id="a606e077dce0fd93ff066b89cbde6e790"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delete_list </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structs__node.html">s_node</a> **&#160;</td>
+          <td class="paramname"><em>head</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>delete entire list. </p>
+<p>delete_list </p>
 
 </div>
 </div>

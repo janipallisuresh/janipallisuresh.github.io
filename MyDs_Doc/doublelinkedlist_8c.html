@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>MyDs: doublelinkedlist.c File Reference</title>
+<title>My Project: src/doublelinkedlist.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,10 +24,8 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="sj.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">MyDs
-   &#160;<span id="projectnumber">1.0</span>
+   <div id="projectname">My Project
    </div>
-   <div id="projectbrief">Implementing Data Structures in C</div>
   </td>
  </tr>
  </tbody>
@@ -82,6 +80,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
@@ -94,13 +96,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>Contains implementation of the functions declared in <a class="el" href="doublelinkedlist_8h.html" title="Contains declarations of functions supported in operating double linked list. ">doublelinkedlist.h</a>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="doublelinkedlist_8h_source.html">doublelinkedlist.h</a>&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for doublelinkedlist.c:</div>
-<div class="dyncontent">
-<div class="center"><img src="doublelinkedlist_8c__incl.png" border="0" usemap="#doublelinkedlist_8c" alt=""/></div>
-<map name="doublelinkedlist_8c" id="doublelinkedlist_8c">
-</map>
-</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -113,6 +108,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a219e46966cf4a021967d1e95e0200528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="doublelinkedlist_8c.html#a219e46966cf4a021967d1e95e0200528">add_node_at</a> (int data, int at_loc, <a class="el" href="structd__node.html">d_node</a> **head)</td></tr>
 <tr class="memdesc:a219e46966cf4a021967d1e95e0200528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the node at given location. location starts from '0' if at_loc is &lt;= 0 then adds at the begining of the list. if at_loc is more than the size of the list then adds at the end.  <a href="#a219e46966cf4a021967d1e95e0200528">More...</a><br /></td></tr>
 <tr class="separator:a219e46966cf4a021967d1e95e0200528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3935b66383eeaed2a43782bd5918b6d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="doublelinkedlist_8c.html#a3935b66383eeaed2a43782bd5918b6d6">delete_list</a> (<a class="el" href="structd__node.html">d_node</a> **head)</td></tr>
+<tr class="memdesc:a3935b66383eeaed2a43782bd5918b6d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the entire list starting from Head node.  <a href="#a3935b66383eeaed2a43782bd5918b6d6">More...</a><br /></td></tr>
+<tr class="separator:a3935b66383eeaed2a43782bd5918b6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af4d46bb55674010ec5700c363c9550"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="doublelinkedlist_8c.html#a1af4d46bb55674010ec5700c363c9550">display_list</a> (<a class="el" href="structd__node.html">d_node</a> *head)</td></tr>
 <tr class="memdesc:a1af4d46bb55674010ec5700c363c9550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the list starting from Head node.  <a href="#a1af4d46bb55674010ec5700c363c9550">More...</a><br /></td></tr>
 <tr class="separator:a1af4d46bb55674010ec5700c363c9550"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +235,25 @@ Functions</h2></td></tr>
 
 <p>Adds a node at starting of the list. </p>
 <p>add_node_front </p>
+
+</div>
+</div>
+<a class="anchor" id="a3935b66383eeaed2a43782bd5918b6d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delete_list </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structd__node.html">d_node</a> **&#160;</td>
+          <td class="paramname"><em>head</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete the entire list starting from Head node. </p>
+<p>delete_list </p>
 
 </div>
 </div>

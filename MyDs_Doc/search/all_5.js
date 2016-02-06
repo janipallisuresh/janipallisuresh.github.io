@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['s_5fnode',['s_node',['../structs__node.html',1,'s_node'],['../singlelinkedlist_8h.html#a84abed85a64ee01d9271f9428507d409',1,'s_node():&#160;singlelinkedlist.h']]],
-  ['singlelinkedlist_2ec',['singlelinkedlist.c',['../singlelinkedlist_8c.html',1,'']]],
-  ['singlelinkedlist_2eh',['singlelinkedlist.h',['../singlelinkedlist_8h.html',1,'']]]
+  ['pop_5fnode',['pop_node',['../queue_8c.html#a14006047e1aa30ee23ede614bd35d347',1,'pop_node(my_queue **myq):&#160;queue.c'],['../queue_8h.html#a14006047e1aa30ee23ede614bd35d347',1,'pop_node(my_queue **myq):&#160;queue.c'],['../stack_8c.html#ac8f2bf615c1e94ad7d5831f3b412cdea',1,'pop_node(my_stack **myst):&#160;stack.c'],['../stack_8h.html#ac8f2bf615c1e94ad7d5831f3b412cdea',1,'pop_node(my_stack **myst):&#160;stack.c']]],
+  ['push_5fnode',['push_node',['../queue_8c.html#a888026d397d74106ce1ce699d1e8cd17',1,'push_node(int data, my_queue **myq):&#160;queue.c'],['../queue_8h.html#a888026d397d74106ce1ce699d1e8cd17',1,'push_node(int data, my_queue **myq):&#160;queue.c'],['../stack_8c.html#a72b0585af8bb3c0ad523d629afd72335',1,'push_node(int data, my_stack **myst):&#160;stack.c'],['../stack_8h.html#a72b0585af8bb3c0ad523d629afd72335',1,'push_node(int data, my_stack **myst):&#160;stack.c']]]
 ];

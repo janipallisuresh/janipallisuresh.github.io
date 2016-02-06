@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['s_5fnode',['s_node',['../structs__node.html',1,'']]]
+  ['my_5fqueue',['my_queue',['../structmy__queue.html',1,'']]],
+  ['my_5fstack',['my_stack',['../structmy__stack.html',1,'']]]
 ];
